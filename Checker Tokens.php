@@ -14,7 +14,7 @@
 
 error_reporting(0);
 $token_list_file     = "input.txt"; # File Tokens
-$out_token_file      = "god-token.txt";
+$out_token_file      = "good-token.txt";
 $valid_tokens        = array();
 $base_mn             = fopen($token_list_file, 'r');
 function check_token($token){
